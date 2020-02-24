@@ -1,5 +1,5 @@
 {
-  "name": "todoapp-vue",
+  "name": "brender_front",
   "scripts": {
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
