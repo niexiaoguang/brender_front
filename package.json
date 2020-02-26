@@ -1,7 +1,7 @@
 {
   "name": "brender_front",
   "scripts": {
-    "start": "npm run serve",
+    "start": "export NODE_ENV='development' && npm run serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",

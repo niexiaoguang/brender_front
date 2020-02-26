@@ -12,6 +12,9 @@ RUN npm install
 #git clone my lib
 RUN cd ./node_modules && \
 	git clone https://github.com/niexiaoguang/vue-wechat-login.git
+RUN cd ./node_modules/vue-wechat-login && \
+	npm install
+
 COPY . /app
 EXPOSE 8900
 CMD npm start
